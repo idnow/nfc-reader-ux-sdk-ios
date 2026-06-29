@@ -20,8 +20,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "NFCReaderUXLibrary",
-            url: "https://github.com/idnow/nfc-reader-ux-sdk-ios/releases/download/1.3.2/NFCReaderUX.xcframework.zip",
-            checksum: "69ce61201f3696dd4b80ac2fc3032cf993e4cab3da8d86134fdd302290840e04"
+            url: "https://github.com/idnow/nfc-reader-ux-sdk-ios/releases/download/1.3.4/NFCReaderUX.xcframework.zip",
+            checksum: "945d352a5bda3229d1bd5cb01dce4e54df0ee928e7736b312da1ec95b041f932"
         ),
         .target(
             // Main target which contains both NFCReaderUX and the NFCReader dependency. Automatically downloaded when client fetch NFCReader.
