@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.3.5] - 2026-06-30
+### Changed
+- Update NFCReader to 1.4.2
+- Add support for challengeError
+
 ## [1.3.2] - 2026-06-25
 ### Changed
 - Update NFCReader to 1.4.1
