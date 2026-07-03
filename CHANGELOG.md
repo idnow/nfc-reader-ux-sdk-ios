@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.6] - 2026-07-03
+### Changed
+- Update Sunflower to 2.1.17
+### Fixed
+- Fix reading screen UI
+
 ## [1.3.5] - 2026-06-30
 ### Changed
 - Update NFCReader to 1.4.2
