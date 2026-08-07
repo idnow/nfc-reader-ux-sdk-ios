@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.3.9] - 2026-08-07
+### Changed
+- Update Sunflower to 2.2.2
+
 ## [1.3.8] - 2026-07-30
 ### Changed
 - Update NFCReader to 1.4.4
