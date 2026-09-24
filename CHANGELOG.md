@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0] - 2026-09-24
+### Added
+- `NFCUxReaderErrorReport`, a structured error report (authentication, reading with data-group name and ISO 7816-4 status word, challenge, lifecycle, server, internal) delivered through the new `NFCUxEventListener.onNfcReaderError(report:)`
+- `ReaderError.mandatoryFileMissing(dataGroup:)` reported when the mandatory EF.SOD is absent
+- Non-ICAO documents now surface as `NFCUxReaderErrorReport.authenticationApplicationNotFound`
+### Changed
+- Update NFCReader to 1.5.0
+- **Breaking:** `ReaderError.authenticationWrongCredentials` renamed to `authenticationFailed`
+### Removed
+- **Breaking:** `NFCUxEventListener.onNfcReaderError(error:details:)`, replaced by `onNfcReaderError(report:)`
+- **Breaking:** `NfcReaderErrorEvent`, replaced by `NFCUxReaderErrorReport`
+
 ## [1.3.10] - 2026-08-28
 ### Changed
 - Update NFCReader to 1.4.5
