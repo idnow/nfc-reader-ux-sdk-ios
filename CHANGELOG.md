@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.4.2] - 2026-10-19
+### Changed
+- Update NFCReader to 1.5.2
+- Reduce the framework binary size
+
 ## [1.4.1] - 2026-10-01
 ### Changed
 - Update NFCReader to 1.5.1
