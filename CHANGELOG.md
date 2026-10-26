@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.4.3] - 2026-10-26
+### Changed
+- Update NFCReader to 1.5.3
+
 ## [1.4.2] - 2026-10-19
 ### Changed
 - Update NFCReader to 1.5.2
