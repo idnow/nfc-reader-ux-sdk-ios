@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.4.4] - 2026-10-29
+### Fixed
+- Lottie animations not displayed
+
 ## [1.4.3] - 2026-10-26
 ### Changed
 - Update NFCReader to 1.5.3
