@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.5.0] - 2026-11-05
+### Changed
+- **Breaking:** Minimum deployment target raised to iOS 15.0
+- Update Sunflower to 2.3.0
+
 ## [1.4.4] - 2026-10-29
 ### Fixed
 - Lottie animations not displayed

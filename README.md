@@ -10,7 +10,7 @@ The library is themed with the [IDnow Design System](https://github.com/idnow/su
 
 | | |
 |---|---|
-| Platform | iOS 14.0+ |
+| Platform | iOS 15.0+ |
 | Language | Swift 5.9+ |
 | Device | A physical iPhone with NFC (iPhone 7 and later). The NFC chip is **not** available in the iOS Simulator. |
 | Distribution | Swift Package Manager (binary XCFramework) |
