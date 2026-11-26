@@ -15,13 +15,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/idnow/nfc-reader-sdk-ios.git", exact: "1.5.3"),
-        .package(url: "https://github.com/idnow/sunflower-sdk-ios.git", exact: "2.3.0"),
+        .package(url: "https://github.com/idnow/sunflower-sdk-ios.git", exact: "2.3.1"),
     ],
     targets: [
         .binaryTarget(
             name: "NFCReaderUXLibrary",
-            url: "https://github.com/idnow/nfc-reader-ux-sdk-ios/releases/download/1.5.0/NFCReaderUX.xcframework.zip",
-            checksum: "d3f9f160110502534e5af53b8154ee4cadcdf0899d8d8c487870828124eb40ee"
+            url: "https://github.com/idnow/nfc-reader-ux-sdk-ios/releases/download/1.5.1/NFCReaderUX.xcframework.zip",
+            checksum: "5ef0205fe80c77d507ee307b143c7d811c1e9d801a6d240c3ceea2581ef5fa67"
         ),
         .target(
             // Main target which contains both NFCReaderUX and the NFCReader dependency. Automatically downloaded when client fetch NFCReader.

@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.5.1] - 2026-11-26
+### Changed
+- Update Sunflower to 2.3.1
+
 ## [1.5.0] - 2026-11-05
 ### Changed
 - **Breaking:** Minimum deployment target raised to iOS 15.0
